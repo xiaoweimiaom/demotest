@@ -16,4 +16,8 @@ public class TestController {
     public String show (){
         return "HELLO";
     }
+    @ResponseBody
+    public String show2 (){
+        return "HELLO2";
+    }
 }
